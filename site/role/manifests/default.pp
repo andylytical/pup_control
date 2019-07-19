@@ -3,5 +3,5 @@
 # @example
 #   include role::default
 class role::default {
-    include ::profile::stdcfg
+    include ::profile::baseline_cfg
 }
