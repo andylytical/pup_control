@@ -26,4 +26,4 @@ mod 'puppetlabs-stdlib', '6.0.0'
 mod 'puppetlabs-xinetd', '3.3.0'
 mod 'baseline_cfg',
     :git => 'https://github.com/LSST-IT/puppet-baseline_cfg.git',
-    :commit => 'e6d70d43ab4e6f6045828af81bfe4246b7c8c02e'
+    :ref => 'topic/aloftus/docker_testing'
