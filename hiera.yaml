@@ -5,35 +5,37 @@ defaults:
   data_hash: yaml_data
 hierarchy:
   - name: Private Hiera
+    datadir: private
     paths:
-    - 01_private/node/%{fqdn}.yaml
-    - 01_private/datacenter/%{datacenter}/cluster/%{cluster}/role/%{role}.yaml
-    - 01_private/datacenter/%{datacenter}/cluster/%{cluster}.yaml
-    - 01_private/cluster/%{cluster}/role/%{role}.yaml
-    - 01_private/cluster/%{cluster}.yaml
-    - 01_private/datacenter/%{datacenter}/role/%{role}.yaml
-    - 01_private/datacenter/%{datacenter}.yaml
-    - 01_private/site/%{site}/role/%{role}.yaml
-    - 01_private/site/%{site}.yaml
-    - 01_private/role/%{role}.yaml
-    - 01_private/role/%{role}/type/%{virtual}.yaml
-    - 01_private/type/%{virtual}.yaml
-    - 01_private/type/default.yaml
-    - 01_private/common.yaml
+    - node/%{fqdn}.yaml
+    - datacenter/%{datacenter}/cluster/%{cluster}/role/%{role}.yaml
+    - datacenter/%{datacenter}/cluster/%{cluster}.yaml
+    - cluster/%{cluster}/role/%{role}.yaml
+    - cluster/%{cluster}.yaml
+    - datacenter/%{datacenter}/role/%{role}.yaml
+    - datacenter/%{datacenter}.yaml
+    - site/%{site}/role/%{role}.yaml
+    - site/%{site}.yaml
+    - role/%{role}.yaml
+    - role/%{role}/type/%{virtual}.yaml
+    - type/%{virtual}.yaml
+    - type/default.yaml
+    - common.yaml
  
   - name: Public Hiera
+    datadir: public
     paths:
-    - 02_public/node/%{fqdn}.yaml
-    - 02_public/datacenter/%{datacenter}/cluster/%{cluster}/role/%{role}.yaml
-    - 02_public/datacenter/%{datacenter}/cluster/%{cluster}.yaml
-    - 02_public/cluster/%{cluster}/role/%{role}.yaml
-    - 02_public/cluster/%{cluster}.yaml
-    - 02_public/datacenter/%{datacenter}/role/%{role}.yaml
-    - 02_public/datacenter/%{datacenter}.yaml
-    - 02_public/site/%{site}/role/%{role}.yaml
-    - 02_public/site/%{site}.yaml
-    - 02_public/role/%{role}.yaml
-    - 02_public/role/%{role}/type/%{virtual}.yaml
-    - 02_public/type/%{virtual}.yaml
-    - 02_public/type/default.yaml
-    - 02_public/common.yaml
+    - node/%{fqdn}.yaml
+    - datacenter/%{datacenter}/cluster/%{cluster}/role/%{role}.yaml
+    - datacenter/%{datacenter}/cluster/%{cluster}.yaml
+    - cluster/%{cluster}/role/%{role}.yaml
+    - cluster/%{cluster}.yaml
+    - datacenter/%{datacenter}/role/%{role}.yaml
+    - datacenter/%{datacenter}.yaml
+    - site/%{site}/role/%{role}.yaml
+    - site/%{site}.yaml
+    - role/%{role}.yaml
+    - role/%{role}/type/%{virtual}.yaml
+    - type/%{virtual}.yaml
+    - type/default.yaml
+    - common.yaml
