@@ -8,12 +8,10 @@ hierarchy:
     datadir: private
     paths:
     - node/%{fqdn}.yaml
-    - datacenter/%{datacenter}/cluster/%{cluster}/role/%{role}.yaml
-    - datacenter/%{datacenter}/cluster/%{cluster}.yaml
+    - site/%{site}/cluster/%{cluster}/role/%{role}.yaml
+    - site/%{site}/cluster/%{cluster}.yaml
     - cluster/%{cluster}/role/%{role}.yaml
     - cluster/%{cluster}.yaml
-    - datacenter/%{datacenter}/role/%{role}.yaml
-    - datacenter/%{datacenter}.yaml
     - site/%{site}/role/%{role}.yaml
     - site/%{site}.yaml
     - role/%{role}.yaml
@@ -26,12 +24,10 @@ hierarchy:
     datadir: public
     paths:
     - node/%{fqdn}.yaml
-    - datacenter/%{datacenter}/cluster/%{cluster}/role/%{role}.yaml
-    - datacenter/%{datacenter}/cluster/%{cluster}.yaml
+    - site/%{site}/cluster/%{cluster}/role/%{role}.yaml
+    - site/%{site}/cluster/%{cluster}.yaml
     - cluster/%{cluster}/role/%{role}.yaml
     - cluster/%{cluster}.yaml
-    - datacenter/%{datacenter}/role/%{role}.yaml
-    - datacenter/%{datacenter}.yaml
     - site/%{site}/role/%{role}.yaml
     - site/%{site}.yaml
     - role/%{role}.yaml
