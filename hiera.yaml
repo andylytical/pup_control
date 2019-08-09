@@ -15,9 +15,6 @@ hierarchy:
     - site/%{site}/role/%{role}.yaml
     - site/%{site}.yaml
     - role/%{role}.yaml
-    - role/%{role}/type/%{virtual}.yaml
-    - type/%{virtual}.yaml
-    - type/default.yaml
     - common.yaml
  
   - name: Public Hiera
@@ -31,7 +28,4 @@ hierarchy:
     - site/%{site}/role/%{role}.yaml
     - site/%{site}.yaml
     - role/%{role}.yaml
-    - role/%{role}/type/%{virtual}.yaml
-    - type/%{virtual}.yaml
-    - type/default.yaml
     - common.yaml
