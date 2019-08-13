@@ -1,3 +1,4 @@
+mod 'beergeek-chronyd', '0.1.2'
 mod 'herculesteam-augeasproviders', '2.4.1'
 mod 'herculesteam-augeasproviders_apache', '3.1.1'
 mod 'herculesteam-augeasproviders_base', '2.1.0'
@@ -22,8 +23,11 @@ mod 'puppetlabs-inifile', '3.0.0'
 mod 'puppetlabs-kubernetes', '4.0.1'
 mod 'puppetlabs-lvm', '1.3.0'
 mod 'puppetlabs-mount_providers', '2.0.1'
+mod 'puppetlabs-ntp', '8.0.0'
 mod 'puppetlabs-stdlib', '6.0.0'
 mod 'puppetlabs-xinetd', '3.3.0'
+mod 'saz-rsyslog', '5.0.0'
+mod 'saz-timezone', '5.1.1'
 mod 'baseline_cfg',
     :git => 'https://github.com/LSST-IT/puppet-baseline_cfg.git',
     :ref => 'topic/aloftus/docker_testing'
