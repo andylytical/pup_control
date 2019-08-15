@@ -14,6 +14,7 @@ mod 'herculesteam-augeasproviders_ssh', '3.2.1'
 mod 'herculesteam-augeasproviders_sysctl', '2.3.1'
 mod 'herculesteam-augeasproviders_syslog', '2.3.0'
 mod 'puppet-archive', '4.1.0'
+mod 'puppet-selinux', '3.0.0'
 mod 'puppet-yum', '4.0.0'
 mod 'puppetlabs-apache', '5.0.0'
 mod 'puppetlabs-apt', '7.0.1'
@@ -31,3 +32,6 @@ mod 'saz-timezone', '5.1.1'
 mod 'baseline_cfg',
     :git => 'https://github.com/LSST-IT/puppet-baseline_cfg.git',
     :ref => 'topic/aloftus/docker_testing'
+mod 'unbound',
+    :git => 'https://github.com/LSST-IT/puppet-unbound',
+    :ref => 'master'

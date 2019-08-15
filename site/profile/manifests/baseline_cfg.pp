@@ -5,6 +5,10 @@
 # @example
 #   include profile::baseline_cfg
 class profile::baseline_cfg {
-    #include ::augeasproviders::instances
+    include ::augeasproviders::instances
     include ::baseline_cfg
+    include ::chronyd
+    include ::ntp
+    include ::timezone
+    include ::unbound
 }
