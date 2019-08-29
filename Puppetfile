@@ -34,4 +34,4 @@ mod 'baseline_cfg',
     :ref => 'topic/aloftus/docker_testing'
 mod 'unbound',
     :git => 'https://github.com/LSST-IT/puppet-unbound',
-    :ref => 'master'
+    :ref => 'production'
