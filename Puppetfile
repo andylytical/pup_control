@@ -1,4 +1,5 @@
 mod 'beergeek-chronyd', '0.1.2'
+mod 'crayfishx-firewalld', '3.4.0'
 mod 'herculesteam-augeasproviders', '2.4.1'
 mod 'herculesteam-augeasproviders_apache', '3.1.1'
 mod 'herculesteam-augeasproviders_base', '2.1.0'
