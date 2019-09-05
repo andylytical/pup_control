@@ -8,8 +8,7 @@ class profile::baseline_cfg {
     include ::augeasproviders::instances
     include ::baseline_cfg
     include ::chronyd
-    include ::firewalld
     include ::ntp
+    include ::ssh::sshd
     include ::timezone
-    include ::unbound
 }
