@@ -1,6 +1,5 @@
 mod 'MiamiOH-pam_access', '1.0.1'
 mod 'beergeek-chronyd', '0.1.2'
-mod 'crayfishx-firewalld', '3.4.0'
 mod 'herculesteam-augeasproviders', '2.4.1'
 mod 'herculesteam-augeasproviders_apache', '3.1.1'
 mod 'herculesteam-augeasproviders_base', '2.1.0'
@@ -35,7 +34,7 @@ mod 'baseline_cfg',
     :git => 'https://github.com/LSST-IT/puppet-baseline_cfg.git',
     :ref => 'topic/aloftus/docker_testing'
 mod 'lsst_system_authnz',
-    :git => 'https://github.com/LSST-IT/puppet-lsst_system_authnz.git',
+    :git => 'https://github.com/andylytical/puppet-lsst_system_authnz.git',
     :ref => 'topic/aloftus/docker_testing'
 mod 'ssh',
     :git => 'https://github.com/andylytical/puppet-ssh.git',
