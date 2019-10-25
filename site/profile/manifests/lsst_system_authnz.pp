@@ -7,5 +7,6 @@ class profile::lsst_system_authnz {
     include ::lsst_system_authnz
     include ::ssh::sshd
     include ::sudo   # saz::sudo
+    include ::sssd
 
 }

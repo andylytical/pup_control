@@ -11,4 +11,12 @@ class profile::baseline_cfg {
     include ::ntp
     include ::ssh::sshd
     include ::timezone
+
+    # OS specific includes
+    case $facts['os']['family'] {
+        'RedHat': {
+            include ::baseline_cfg::yum
+            include ::pakrat_client
+        }
+    }
 }
