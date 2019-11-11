@@ -38,20 +38,20 @@ mod 'augeasfacter',
     :git => 'https://github.com/woodsbw/augeasfacter',
     :commit => '9aea81311d277ed7ff1e8f2d4f79d13cd25f6ded'
 mod 'baseline_cfg',
-    :git => 'https://github.com/LSST-IT/puppet-baseline_cfg.git',
-    :ref => 'topic/aloftus/docker_testing'
+    :git => 'https://github.com/lsst-it/puppet-baseline_cfg.git',
+    :ref => 'production'
 mod 'lsst_system_authnz',
-    :git => 'https://github.com/andylytical/puppet-lsst_system_authnz.git',
-    :ref => 'topic/aloftus/docker_testing'
+    :git => 'https://github.com/lsst-it/puppet-lsst_system_authnz.git',
+    :ref => 'production'
 mod 'ssh',
-    :git => 'https://github.com/andylytical/puppet-ssh.git',
-    :ref => 'master'
+    :git => 'https://github.com/lsst-it/puppet-ssh.git',
+    :ref => 'production'
 mod 'unbound',
-    :git => 'https://github.com/LSST-IT/puppet-unbound',
+    :git => 'https://github.com/lsst-it/puppet-unbound',
     :ref => 'production'
 mod 'pakrat_client',
     :git => 'https://github.com/lsst-it/puppet-pakrat_client',
     :ref => 'production'
 mod 'sssd',
-    :git => 'https://github.com/andylytical/puppet-sssd',
-    :ref => 'master'
+    :git => 'https://github.com/lsst-it/puppet-sssd.git',
+    :ref => 'production'
